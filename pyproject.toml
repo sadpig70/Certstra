@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "certstra"
+version = "0.1.0"
+description = "Deterministic certification platform — kernel + N domain packs (-stra family: attest/clear/route/certify). Emitted by the HELIX Condense recipe."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Jung Wook Yang", email = "sadpig70@gmail.com"}]
+dependencies = []
+
+[tool.setuptools]
+packages = ["certstra_core", "certstra_packs"]

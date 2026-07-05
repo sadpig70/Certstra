@@ -1,0 +1,22 @@
+{
+  "project": "Certstra",
+  "version": "0.1",
+  "phase": "pilot-emitted",
+  "emitted_by": "HELIX Condense recipe (_workspace/condense/U2-condense-recipe.md) — Phase U3 pilot",
+  "cluster": "Robotics/Release (M2 verdict, M4 provenance, M12 staged-release)",
+  "reference_pack": "cert-mesh (CertMesh parity, source D:/IdeaFirst/certmesh)",
+  "machine_reuse": {
+    "reused": ["ledger(M1)", "fingerprint(M14)", "determinism", "verdict(M2)", "certify-merge", "provenance(M4)"],
+    "new": ["stage_schedule(M12)"]
+  },
+  "verify": {
+    "unittests": "Ran 12 tests OK",
+    "determinism": "clean=True, 14 files",
+    "packs": "3 loaded (cert-mesh, release-mesh, robo-trace), 0 dropped, 0 errors",
+    "reference_parity": "CERTMESH PARITY OK — cert-mesh 4/4 verdict cases == real CertMesh.certify (certifiable/needs_review/blocked incl. capability-added)",
+    "zero_kernel_change": "release-mesh + robo-trace added beyond reference with no kernel change",
+    "cli_smoke": "run release-mesh -> certify=certifiable, rollout_complete=True, ledger chain valid"
+  },
+  "u3_gate": "PASS (G1 zero-kernel-change, G2 reference-parity, G3 determinism-clean, G4 tests-green, G5 structure-conform)",
+  "next": "Certstra follow-up: add route-sentinel + orbi-roam packs, schemas enforcement, docs x3, publish. OR HELIX Condense U4 (layered corpus + release strand)."
+}
