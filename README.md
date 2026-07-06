@@ -11,6 +11,8 @@ Certstra는 **하나의 결정론 인증 커널 + N개 도메인 팩** 구조다
 verdict + provenance + staged rollout)를 커널로 승격하고, 각 도메인을 팩으로 얹는다.
 
 ## -stra 플랫폼 패밀리 (4형제)
+> 🔗 **생태계 데모**: [stra-demo](https://github.com/sadpig70/stra-demo) — route → clear → certify → attest가 한 결정을 함께 처리하는 end-to-end 데모.
+
 
 | 플랫폼 | 동사 | 역할 |
 |---|---|---|
