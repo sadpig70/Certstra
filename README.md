@@ -1,3 +1,5 @@
+![Certstra](assets/Certstra_hero.png)
+
 # Certstra
 
 > **로봇 정책·릴리스·사고 증거를 결정론적으로 인증하는 플랫폼.**
