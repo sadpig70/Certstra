@@ -14,7 +14,8 @@ from certstra_packs.loader import load_packs, run_stage
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EXPECTED = {"cert-mesh", "release-mesh", "robo-trace",
-            "orbi-roam"}  # BUILD_ON_PLATFORM: OrbiRoam tasking authorization -> Certstra certify pack
+            "orbi-roam",   # BUILD_ON_PLATFORM: OrbiRoam tasking authorization -> Certstra certify pack
+            "bio-clock"}   # BUILD_ON_PLATFORM: BioClock drift+quarantine certification (not a CONDENSE)
 
 
 class TestCertify(unittest.TestCase):
