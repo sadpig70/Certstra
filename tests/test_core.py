@@ -13,7 +13,8 @@ from certstra_core.determinism import check_tree
 from certstra_packs.loader import load_packs, run_stage
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-EXPECTED = {"cert-mesh", "release-mesh", "robo-trace"}
+EXPECTED = {"cert-mesh", "release-mesh", "robo-trace",
+            "orbi-roam"}  # BUILD_ON_PLATFORM: OrbiRoam tasking authorization -> Certstra certify pack
 
 
 class TestCertify(unittest.TestCase):
