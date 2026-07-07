@@ -46,10 +46,13 @@ emit**된 첫 플랫폼이다 — "HELIX가 프로젝트가 아니라 *플랫폼
 
 `cert-mesh`가 레퍼런스 팩(CertMesh parity).
 
-## 1차 도메인 팩
+## 도메인 팩 (4종)
 
-`cert-mesh`(레퍼런스) · `release-mesh`(certify+stage) · `robo-trace`(certify). 각 팩은 `source_project`로
-원본(github.com/sadpig70/*) 추적. 2차: `route-sentinel`·`orbi-roam`.
+`cert-mesh`(레퍼런스) · `release-mesh`(certify+stage) · `robo-trace`(certify) · `orbi-roam`(궤도 tasking
+인가 — HELIX **machine-aware routing**이 corpus에서 흡수한 첫 certify 팩: authorized/review_required/
+blocked ≅ certifiable/needs_review/blocked, 원본과 parity 테스트 동봉). 각 팩은 `source_project`로
+원본(github.com/sadpig70/*) 추적. (`route-sentinel`은 로봇 detour/rollback **시뮬레이션 엔진**이라 단일
+certify primitive로 환원 안 돼 defer.)
 
 ## 결정론 경계
 
